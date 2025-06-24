@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vishal Kumar - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #0077cc;
+      border-bottom: 2px solid #0077cc;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .about img {
+      max-width: 200px;
+      border-radius: 100px;
+      display: block;
+      margin: 20px auto;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li {
+      background: #e0e0e0;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .project-card {
+      flex: 1 1 280px;
+      background: #fff;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .project-card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .resume a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #0077cc;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .resume a:hover {
+      background: #005fa3;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Vishal Kumar</h1>
+    <p>Web Developer | Student | Tech Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="vishal.jpg" alt="Vishal Kumar Photo">
+    <p>Hello! I'm <strong>Vishal Kumar</strong>, an aspiring web developer passionate about creating simple, clean, and user-friendly websites. I'm currently learning HTML, CSS, and JavaScript, and looking forward to working on exciting web projects.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5 & CSS3</li>
+      <li>Responsive Web Design</li>
+      <li>Basic JavaScript</li>
+      <li>UI/UX Principles</li>
+      <li>Version Control (Git basics)</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80" alt="Project 1">
+      <h3>Landing Page</h3>
+      <p>A simple responsive landing page for a local garment shop using HTML and CSS.</p>
+    </div>
+    <div class="project-card">
+      <img src="Screenshot 2025-06-24 122319.png" alt="Project 2">
+      <h3>Personal Portfolio</h3>
+      <p>This personal portfolio site showcasing my skills, projects, and resume link.</p>
+    </div>
+  </section>
+
+  <section id="resume" class="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume by clicking the button below:</p>
+    <a href="resume.pdf" download>Download Resume</a>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:vishal@example.com">vishal@example.com</a></p>
+    <p>Phone: +91-8546425XXX</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vishal Kumar. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
